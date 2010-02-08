@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ShinyApp' target in the 'ShinyApp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
