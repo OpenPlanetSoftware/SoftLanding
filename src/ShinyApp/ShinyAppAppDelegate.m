@@ -20,7 +20,15 @@
 
 - (void)softLandingWindowController:(OPSSoftLandingWindowController*)softLanding didRecieveNotification:(NSString*)notification
 {
-	NSRunAlertPanel( notification, @"OH HAI", @"OK", nil, nil);
+	if( [notification isEqualToString:@"Welcome Clicked"] )
+	{
+		NSRunAlertPanel( notification, @"OH HAI", @"OK", nil, nil);
+	}
+	else
+	{
+		NSRunAlertPanel( notification, @"IZ IN UR APP DSPLN UR MSGS", @"OK", nil, nil);
+		[softLanding close:self];
+	}
 }
 
 - (IBAction)showWelcome:(id)sender

@@ -1,7 +1,8 @@
 <html>
 
-	<link rel="stylesheet" type="text/css" media="ALL" href="SoftLanding.css" />
-
+	<!--Set the cursor style on the headings so that it is obvious to the user that they do something -->
+	<style>h1{ cursor: pointer; }</style>
+	
 	<head>
 
 	<script language="JavaScript" TYPE="text/javascript">
@@ -28,7 +29,11 @@
 	</head>
 
 	<body>
-		<img src="/Library/Desktop Pictures/Nature/Clown Fish.jpg" height="300" alt="Clown Fish">
-		<h1 cocoaTagName="Welcome" onclick="onClickHandler(event)">Welcome to ShinyApp</h1>
+		<img src="/Library/Desktop Pictures/Nature/Clown Fish.jpg" height="200">
+		<h1 cocoaTagName="Welcome Clicked" onclick="onClickHandler(event)">Welcome to ShinyApp</h1>
+		<p>Click on the above title to see a Cocoa message</p>
+
+		<h1 cocoaTagName="Action Clicked" onclick="onClickHandler(event)">Do something else and close</h1>
+		<p>Click on the above title to see a different cocoa message with a tag of &quot;Action Clicked&quot;</p>
 	</body>
 </html>
