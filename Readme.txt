@@ -1,6 +1,10 @@
 Note:
 
-The instructions below are for integrating this component into your application and taken from our blog post on the subject (http://blog.openplanetsoftware.com/2010/02/providing-soft-landing-with-webkit.html). The blog post also describes the mechanics behind the component, not described here.
+The instructions below are for integrating this component into your application and taken from our blog post on the subject.
+
+http://blog.openplanetsoftware.com/2010/02/providing-soft-landing-with-webkit.html.
+
+The blog post also describes the mechanics behind the component, not described here.
 
 INSTRUCTIONS FOR INTEGRATION WITH YOUR APPLICATION:
 
